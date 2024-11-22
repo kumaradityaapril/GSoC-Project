@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="./style.css">
+</head>
+<style>
+    body{
+        
+        background-color: light grey;
+    }
+</style>
+<body>
+   <h1 style="font-family: Arial, Helvetica, sans-serif;
+        text-align: center;">Welcome to Guess The number!!</h1>
+    <p style=" text-align: center;"><img src = "https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/numbers-chart-1-100-1-1618855834.png"  alt="Numbers" style="height: 500px; width: 500px;"></p>
+    <p><h2>Rules for the game</h2>
+        <ol type="1">
+            <li>You have to choose a random numbers between 1 to 100</li>
+            <li>At everystep the function box will command you or give hints on the basis of numbers</li>
+            <li>If you have attempted the number right you will win</li>
+            <li>If you have not guessed the number right, you will be notified by the function box as try again!!!</li>
+        </ol>
+        </p>
+   
+    <div class="container">
+        <h1>Guess the number</h1>
+        <p>Pick a number between 1 to 100.</p>
+        <input type="number" name="" id="inp" placeholder="Enter your guess">
+        <button id="submit">Guess</button>
+        <p id="msg"></p>
+        <p>Attempts: <span id="attempt"></span></p> 
+        <button id="resBtn" style="display: none; text-align: center;">Restart Again</button>
+    </div>
+    <script src="./Logic.js"></script>
+   
+</body>
+</html>
